@@ -51,7 +51,7 @@ public final class WiresharkOutputCaptor {
     }
 
     public static List<Element> getChildElementsByNameAttribute(Element parentNode, String nameValue) {
-        final List<Element> result = new ArrayList<Element>();
+        final List<Element> result = new ArrayList<>();
         final NodeList children = parentNode.getChildNodes();
         final int length = children.getLength();
         for (int i = 0; i < length; i++)
